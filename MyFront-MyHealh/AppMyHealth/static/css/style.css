@@ -1,0 +1,45 @@
+.btn-add {
+    background-color: green; /* Couleur de fond du bouton */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 4px; /* Bords arrondis */
+    padding: 10px 20px; /* Espacement interne */
+    color: white; /* Couleur du texte et icône */
+    font-size: 16px; /* Taille de la police (pour l'icône) */
+    cursor: pointer; /* Curseur en forme de main au survol */
+}
+
+.btn-add i {
+    margin-right: 8px; /* Espacement entre l'icône et le texte si besoin */
+}
+
+.btn-add:hover {
+    background-color: darkgreen; /* Couleur de fond au survol */
+}
+/* Supprimer la décoration du lien */
+.card-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Style pour la carte */
+.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd; /* Ajoute une bordure si vous le souhaitez */
+    border-radius: 5px; /* Arrondit les coins */
+}
+
+/* Style pour l'image */
+.card-img {
+    margin-right: 10px; /* Espace entre l'image et le texte */
+    max-width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+/* Style pour le texte */
+.card-text {
+    margin: 0; /* Supprime la marge par défaut du <h5> */
+    white-space: nowrap; /* Empêche le texte de se briser sur plusieurs lignes */
+}
